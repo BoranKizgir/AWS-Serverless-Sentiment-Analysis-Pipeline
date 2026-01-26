@@ -1,5 +1,5 @@
 # AWS-Serverless-Sentiment-Analysis-Pipeline
-Proje, tamamiyle yönetilen (managed) servislerden oluşur ve hiçbir sunucu yönetimi gerektirmez.
+Bu proje, AWS üzerinde Olay Güdümlü Mimari (Event-Driven Architecture) prensipleri kullanılarak geliştirilmiş bir metin analiz sistemidir. Kullanıcı tarafından S3'e yüklenen herhangi bir metin dosyası, otomatik olarak işlenir ve duygu analizi (Sentiment Analysis) yapılarak sonuçlar veritabanına kaydedilir.
 
 # Kullanılan AWS Servisler
 
