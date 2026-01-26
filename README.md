@@ -19,3 +19,9 @@ Sistem, AWS'nin İyi Yapılandırılmış Çerçeve (Well-Architected Framework)
 **Security (Güvenlik):** Lambda fonksiyonu, Least Privilege (En Az Yetki) prensibiyle sadece ihtiyaç duyduğu S3, Comprehend ve DynamoDB kaynaklarına erişebilen özel bir IAM rolü ile çalışır.
 
 **High Availability (Yüksek Erişilebilirlik):** Projede kullanılan tüm servisler (S3, Lambda, DynamoDB) AWS tarafından yönetilen ve "Multi-AZ" (Çoklu Erişilebilirlik Alanı) mimarisine sahip servislerdir.
+
+![](explanation_1.png)
+![](explanation_2.png)
+![](explanation_3.png)
+![](explanation_4.png)
+![](explanation_5.png)
