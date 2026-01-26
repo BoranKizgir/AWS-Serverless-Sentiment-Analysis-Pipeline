@@ -4,8 +4,7 @@ Proje, tamamiyle yönetilen (managed) servislerden oluşur ve hiçbir sunucu yö
 Kullanılan AWS Servisleri (Teknik Liste)
 Hangi servisleri, hangi amaçla kullandığını madde madde yazarsın.
 
-S3: Veri depolama ve tetikleyici.
-
+**S3:** Veri depolama ve tetikleyici.
 Lambda: İşlemci (Kodu çalıştıran yer).
 
 Comprehend: Metni analiz eden yapay zeka.
