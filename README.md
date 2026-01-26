@@ -1,14 +1,13 @@
 # AWS-Serverless-Sentiment-Analysis-Pipeline
 Proje, tamamiyle yönetilen (managed) servislerden oluşur ve hiçbir sunucu yönetimi gerektirmez.
 
-İşleyiş Adımları:
+Kullanılan AWS Servisleri (Teknik Liste)
+Hangi servisleri, hangi amaçla kullandığını madde madde yazarsın.
 
-Amazon S3: Giriş noktasıdır. Kullanıcı analiz edilecek .txt dosyasını yükler.
+S3: Veri depolama ve tetikleyici.
 
-S3 Event Notifications: Dosya yüklendiği anda bir tetikleyici oluşturur.
+Lambda: İşlemci (Kodu çalıştıran yer).
 
-AWS Lambda: Tetikleyiciyi yakalar, dosya içeriğini okur ve analiz sürecini yönetir.
+Comprehend: Metni analiz eden yapay zeka.
 
-Amazon Comprehend: Makine öğrenmesi (NLP) kullanarak metindeki duyguyu (Pozitif, Negatif, Nötr) belirler.
-
-Amazon DynamoDB: Dosya adı, analiz sonucu ve zaman damgası gibi verileri kalıcı olarak saklar.
+DynamoDB: Sonuçların yazıldığı veritabanı.
