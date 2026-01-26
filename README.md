@@ -5,8 +5,9 @@ Kullanılan AWS Servisleri (Teknik Liste)
 Hangi servisleri, hangi amaçla kullandığını madde madde yazarsın.
 
 **S3:** Veri depolama ve tetikleyici.
-Lambda: İşlemci (Kodu çalıştıran yer).
 
-Comprehend: Metni analiz eden yapay zeka.
+**Lambda:** İşlemci (Kodu çalıştıran yer).
 
-DynamoDB: Sonuçların yazıldığı veritabanı.
+**Comprehend:** Metni analiz eden yapay zeka.
+
+**DynamoDB:** Sonuçların yazıldığı veritabanı.
