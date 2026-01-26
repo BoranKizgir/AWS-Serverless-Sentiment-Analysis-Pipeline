@@ -1,8 +1,7 @@
 # AWS-Serverless-Sentiment-Analysis-Pipeline
 Proje, tamamiyle yönetilen (managed) servislerden oluşur ve hiçbir sunucu yönetimi gerektirmez.
 
-Kullanılan AWS Servisleri (Teknik Liste)
-Hangi servisleri, hangi amaçla kullandığını madde madde yazarsın.
+# Kullanılan AWS Servisler
 
 **S3:** Veri depolama ve tetikleyici.
 
@@ -15,8 +14,8 @@ Hangi servisleri, hangi amaçla kullandığını madde madde yazarsın.
 # Mimari Özellikler
 Sistem, AWS'nin İyi Yapılandırılmış Çerçeve (Well-Architected Framework) prensiplerine göre tasarlanmıştır:
 
-Decoupling (Sistem Ayrıştırma): S3 ve Lambda arasındaki asenkron ilişki, sistemin bileşenlerini birbirinden bağımsız hale getirir.
+**Decoupling (Sistem Ayrıştırma):** S3 ve Lambda arasındaki asenkron ilişki, sistemin bileşenlerini birbirinden bağımsız hale getirir.
 
-Security (Güvenlik): Lambda fonksiyonu, Least Privilege (En Az Yetki) prensibiyle sadece ihtiyaç duyduğu S3, Comprehend ve DynamoDB kaynaklarına erişebilen özel bir IAM rolü ile çalışır.
+**Security (Güvenlik):** Lambda fonksiyonu, Least Privilege (En Az Yetki) prensibiyle sadece ihtiyaç duyduğu S3, Comprehend ve DynamoDB kaynaklarına erişebilen özel bir IAM rolü ile çalışır.
 
-High Availability (Yüksek Erişilebilirlik): Projede kullanılan tüm servisler (S3, Lambda, DynamoDB) AWS tarafından yönetilen ve "Multi-AZ" (Çoklu Erişilebilirlik Alanı) mimarisine sahip servislerdir.
+**High Availability (Yüksek Erişilebilirlik):** Projede kullanılan tüm servisler (S3, Lambda, DynamoDB) AWS tarafından yönetilen ve "Multi-AZ" (Çoklu Erişilebilirlik Alanı) mimarisine sahip servislerdir.
