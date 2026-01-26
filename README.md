@@ -2,7 +2,7 @@
 Proje, tamamiyle yönetilen (managed) servislerden oluşur ve hiçbir sunucu yönetimi gerektirmez.
 
 İşleyiş Adımları:
-1.Amazon S3: Giriş noktasıdır. Kullanıcı analiz edilecek .txt dosyasını yükler.
+# 1.Amazon S3: Giriş noktasıdır. Kullanıcı analiz edilecek .txt dosyasını yükler.
 
 2.S3 Event Notifications: Dosya yüklendiği anda bir tetikleyici oluşturur.
 
